@@ -1,0 +1,22 @@
+.nav-container {
+    list-style-type: none;
+}
+
+.nav-container > .nav-item {
+    display: inline;
+    float: left;
+    background-color: #1b5bbc;
+}
+
+.item-searchbar {
+    
+}
+
+.searchbar-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.searchbar {
+    height: 32px;
+}
