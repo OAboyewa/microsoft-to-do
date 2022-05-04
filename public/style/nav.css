@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #1b5bbc;
+}
+
+.nav-container > .nav-item {
+    display: inline;
+    float: left;
+    margin: auto;
+    padding: 14px;
+    color: white;
+    /*background-color: #1b5bbc;*/
+}
+
+.searchbar-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.searchbar {
+    width: 300px;
+}
+
+.list-container {
+    display: flex;
+}
+
+.cloumn {
+    
+}
+
+.sidebar {
+    width: 25%;
+    background-color: lightgray;
+}
+
+.center {
+    width: 75%;
+    background-color: grey;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row:hover {
+    background-color: wheat;
+}
+
+.mulit-section-row {
+    display: flex;
+    height: 32px;
+}
+
+.inner-row-left {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.inner-row-left:hover {
+    background-color: wheat;
+}
+
+.inner-row-right {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.inner-row-right:hover {
+    background-color: wheat;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+}
