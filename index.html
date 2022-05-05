@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="./public/style/nav.css">
+    <script src="./public/script/task.js"></script>
     <title> - To Do</title>
 </head>
 <body>
@@ -59,7 +60,15 @@
                 </div>
             </section>
             <section class="cloumn center">
-
+                <div class="row">
+                    <form action="http://localhost:3000/api/task/" method="POST" id="newTaskForm" name="newTaskForm">
+                        <input type="text" name="task" id="task">
+                        <br>
+                        <input type="date" name="dueDate" id="dueDate">
+                        <br>
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
             </section>
         </section>
     </main>
